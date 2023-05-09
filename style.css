@@ -1,0 +1,97 @@
+h1 {
+  color: red;
+  text-align: center;
+  font-family: 'Times New Roman';
+}
+h2 {
+  color: blueviolet;
+  text-align: center;
+}
+.text {
+  color: brown;
+  font-size: 18px;
+}
+body {
+  margin: 10px 80px 50px;
+  color: brown;
+}
+.menu li {
+  color: rgb(199, 20, 35);
+}
+.menu1 li {
+  color: rgb(43, 37, 38);
+}
+.tit {
+  color: rgb(0, 209, 105);
+}
+.title {
+  color: #ffffff;
+  text-shadow: 2px 4px 10px hsl(0, 96%, 49%);
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.3;
+}
+.schedule {
+  width: 30%;
+  border-collapse: collapse;
+  border: 3px solid purple;
+  background: #9cdae2; /* Цвет фона */
+}
+.schedule td,
+.schedule th {
+  padding: 10px; /* Поля вокруг содержимого таблицы */
+  border: 1px solid purple; /* Параметры рамки */
+
+  font-size: 18px;
+}
+caption {
+  font-size: 30px;
+  padding: 10px;
+}
+.schedule-body > tr:hover {
+  background-color: tomato;
+  color: white;
+}
+a {
+  color: blue;
+  text-decoration: none;
+}
+.social-links .link {
+  color: rgb(231, 18, 18);
+  text-decoration: none;
+}
+.menu > li {
+  border: 1px solid tomato;
+}
+a[title] {
+  color: teal;
+}
+a[href="https://www.youtube.com/"]
+{
+  color: rgb(224, 12, 12);
+}
+.social-links .link:focus {
+  color: orange;
+  background: #9cdae2;
+}
+
+.social-links .link:visited {
+  color: green;
+}
+.background {
+  height: 318px;
+  width: 736px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 5px dashed #9cdae2;
+  color: black;
+  background-color: aqua;
+  background-image: url('./images/bolshunov.jpg');
+  background-repeat: no-repeat;
+  background-position: ;
+  background-size: cover;
+  background-origin: content-box;
+  /*background-clip: content-box;*/
+}
